@@ -1,4 +1,4 @@
-# This is Drink menu backend frontend build using React.js,  
+# This is Drink menu frontend build using React.js,  
 
 ## technology used
 
