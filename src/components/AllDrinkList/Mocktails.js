@@ -9,7 +9,7 @@ function MocktailsList() {
 
             useEffect(() => {
                         const fetchDrinklist = async () => {
-                                    const res = await fetch('/api/drink')
+                                    const res = await fetch('https://drink-menu.adaptable.app/api/drink')
                                     const data = await res.json()
                                     const dataFilter = data.filter(drinkType => drinkType.typOfDrink === 'Mocltail')
                                     setDrinkList(dataFilter)
