@@ -26,7 +26,7 @@ function AddDrink() {
                         formData.append('typOfDrink', typOfDrink)
                         formData.append('image', image)
 
-                        axios.post('https://drink-menu.adaptable.app/api/drink', formData)
+                        axios.post('/api/drink', formData)
                                     .then(() => {
                                                 Swal.fire(
                                                             'Add drink',
