@@ -12,7 +12,7 @@ const DrinkContainer = ({ drink }) => {
             return (
                         <DrinkBox data-aos="zoom-in">
                                     <ImgAndPrice>
-                                                <DrinkIMG src={`${drink.imageName}`} data-aos="fade-right" />
+                                                <DrinkIMG src={`https://drink-menu.adaptable.app/${drink.imageName}`} data-aos="fade-right" />
                                                 <Price data-aos="fade-left">{drink.price}$</Price>
                                     </ImgAndPrice>
                                     <DrinkName>{drink.drinkName}</DrinkName>
