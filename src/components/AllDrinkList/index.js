@@ -11,7 +11,7 @@ const AllDrinkList = () => {
 
             useEffect(() => {
                         const fetchDrinklist = async () => {
-                                    const res = await fetch('/api/drink')
+                                    const res = await fetch('https://drink-menu.adaptable.app/api/drink')
                                     const data = await res.json()
                                     setDrinkList(data)
                                     setLoading(false)
