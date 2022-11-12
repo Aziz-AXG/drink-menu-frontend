@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Kolker+Brush&family=Roboto:ital,wght@1,300&display=swap');
+
+
+html {
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: linear-gradient(95deg, rgba(159, 79, 67, 1) 5%, rgba(116, 46, 36, 1) 100%);
+}
