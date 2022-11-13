@@ -6,6 +6,8 @@ The site was created as a mobile application in first pleas using Progressive We
 
 *React.js
 
+*styled-components
+
 *react-icons
 
 *react-router-dom
