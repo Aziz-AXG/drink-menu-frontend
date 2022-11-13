@@ -19,6 +19,7 @@ The site was created as a mobile application in first pleas using Progressive We
 # VIEW The project in Website
 
 ## "[View demo](https://drink-menu.netlify.app/)"
+##The problem with the images not showing up is using a free hosting
 
 ## To run in 
 
