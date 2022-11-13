@@ -30,7 +30,7 @@ const DrinkBox = styled.div`
             margin: 20px 0 20px 0;
             background: #FFFFFF;
             border-radius: 100% 25% 25% 25%/ 80% 25% 25% 25% ;
-            width: 200px;
+            width: 160px;
 `
 
 const ImgAndPrice = styled.div`
