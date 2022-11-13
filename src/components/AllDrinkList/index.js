@@ -48,6 +48,7 @@ export const Container = styled.div`
             align-content: center;
             min-height: 80vh;
             grid-template-columns: 1fr 1fr;
+            background: linear-gradient(95deg, rgba(159, 79, 67, 1) 5%, rgba(116, 46, 36, 1) 100%);
 
             @media screen and (max-width: 330px) {
                         grid-template-columns: 1fr;

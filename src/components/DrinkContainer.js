@@ -30,7 +30,7 @@ const DrinkBox = styled.div`
             margin: 20px 0 20px 0;
             background: #FFFFFF;
             border-radius: 100% 25% 25% 25%/ 80% 25% 25% 25% ;
-            min-width: 160px;
+            width: 200px;
 `
 
 const ImgAndPrice = styled.div`
@@ -50,4 +50,5 @@ const DrinkIMG = styled.img`
 const DrinkName = styled.h1`
             font-size: 25px;
             margin: 10px;
+            text-align: center;
 `
