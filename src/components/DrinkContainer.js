@@ -12,7 +12,7 @@ const DrinkContainer = ({ drink }) => {
             return (
                         <DrinkBox data-aos="zoom-in">
                                     <ImgAndPrice>
-                                                <DrinkIMG src={`https://drink-menu.adaptable.app/${drink.imageName}`} data-aos="fade-right" />
+                                                <DrinkIMG src={drink.imageName} data-aos="fade-right" />
                                                 <Price data-aos="fade-left">{drink.price}$</Price>
                                     </ImgAndPrice>
                                     <DrinkName>{drink.drinkName}</DrinkName>
@@ -37,14 +37,17 @@ const ImgAndPrice = styled.div`
             display: flex;
 `
 
-const Price = styled.div`
+const Price = styled.h1`
+            position: absolute;
+            padding-left: 80%;
             font-size: 25px;
             margin: 20px 10px 0  0;
 `
 
 const DrinkIMG = styled.img`
-            width: 100px;
-            height: 120px; 
+            width: 160px;
+            height: 100px; 
+            margin-right: 40px;
 `
 
 const DrinkName = styled.h1`
