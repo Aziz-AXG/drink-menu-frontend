@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import Aos from 'aos';
 import 'aos/dist/aos.css'
 
+//if u want to make img showup make it like to server port like "localhost:500/{drink.imageName}"
 
 const DrinkContainer = ({ drink }) => {
             useEffect(() => {
