@@ -40,14 +40,14 @@ const ImgAndPrice = styled.div`
 
 const Price = styled.h1`
             position: absolute;
-            padding-left: 80%;
+            padding-left: 70%;
             font-size: 25px;
             margin: 20px 10px 0  0;
 `
 
 const DrinkIMG = styled.img`
-            width: 160px;
-            height: 100px; 
+            width: 120px;
+            height: 120px; 
             margin-right: 40px;
 `
 
